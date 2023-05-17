@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/api-favicon.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/61b8165097.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>API Exercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="left">
+        <a href="#"> Imamaffandi </a>
+      </div>
+      <div class="right">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+
+        <button onclick="showField()">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <label class="switch">
+          <input type="checkbox" onclick="mode()" />
+          <span class="slide"></span>
+        </label>
+        <form action="" id="form">
+          <input
+            type="search"
+            id="search"
+            class="search"
+            placeholder="Search.."
+            autocomplete="off"
+          />
+        </form>
+      </div>
+    </nav>
+    <header id="header">
+      <div id="head-img"></div>
+      <div class="head-title">
+        <h3>Movie API Project</h3>
+        <p>My API project that i made with pure HTML CSS Javascript</p>
+      </div>
+      <div class="sosmed">
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </header>
+    <section id="section">
+      <div class="slider" id="carousel"></div>
+
+      <h1 style="text-align: center">Popular List</h1>
+      <div id="movielist"></div>
+    </section>
+    <footer id="footer">
+      <div class="flink">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+      </div>
+      <p>Thankyou</p>
+      <div class="fsosmed">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
