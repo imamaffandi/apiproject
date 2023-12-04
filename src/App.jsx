@@ -1,12 +1,11 @@
 import { Suspense } from "react";
-import { Navbar, Header, Content, Footer } from "./components";
+import { Navbar, Header, Content } from "./components";
 function App() {
   return (
     <Suspense>
       <Navbar />
       <Header />
       <Content />
-      <Footer />
     </Suspense>
   );
 }
